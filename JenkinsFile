@@ -22,6 +22,7 @@ pipeline {
                 sh label: '', script: '''
                 ls -al
                 pwd
+                sleep 20
                 chmod +x testscript.sh
                 ./testscript.sh
                 '''
